@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FloatingOrderView</string>
+
+    <string name="sell_title">商家已接单</string>
+    <string name="sell_description">预计送达:</string>
+    <string name="sell_detail">11:50</string>
+
+    <string name="rider_title">骑手已取货</string>
+    <string name="rider_description">距您:</string>
+    <string name="rider_detail">1.5km</string>
+</resources>

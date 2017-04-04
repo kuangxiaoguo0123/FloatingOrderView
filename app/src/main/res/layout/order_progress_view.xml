@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/order_layout_background_shape"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+    <ImageView
+        android:id="@+id/icon_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher_round" />
+
+
+    <RelativeLayout
+        android:id="@+id/rider_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/icon_image_view">
+
+        <include
+            android:id="@+id/center_layout"
+            layout="@layout/order_center_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/close_layout"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/rider_layout">
+
+        <ImageView
+            android:id="@+id/close_image_view"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/close_image" />
+    </LinearLayout>
+
+</RelativeLayout>

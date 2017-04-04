@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
+    android:layout_marginRight="10dp">
+
+    <com.sprite.floatingorderview.view.ATFloatingOrderView
+        android:id="@+id/sell_order_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="100dp" />
+
+    <com.sprite.floatingorderview.view.ATFloatingOrderView
+        android:id="@+id/rider_order_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>
